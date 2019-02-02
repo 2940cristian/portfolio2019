@@ -6,9 +6,6 @@ import picme from "../Assets/Images/picme.png";
 import phone from "../Assets/Images/phone.png"
 import email from "../Assets/Images/email.png";
 import location from "../Assets/Images/location.png";
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
 
 export default class Landing extends React.Component{
     state = {
