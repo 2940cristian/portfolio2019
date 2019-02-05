@@ -33,9 +33,9 @@ export default class Landing extends React.Component{
                     </div>
 
                     <div className="Navbar__section-right">
-                        <a href="#">About</a>
-                        <a href="#">Projects</a>
-                        <a href="#" id="Navbar__contact">Contact</a>
+                        <a href="#About">About</a>
+                        <a href="#Projects">Projects</a>
+                        <a href="#Contact" id="Navbar__contact">Contact</a>
                     </div>
                 </nav>
 
@@ -101,7 +101,7 @@ export default class Landing extends React.Component{
 
 
 
-            <section id="contact">
+            <section id="Contact">
             <form id="form">
                 <p>Let's get in touch. Please leave your name along with either your email, phone number, or any other contact method. Will respond as quickly as possible</p>
             </form>
